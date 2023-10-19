@@ -7,7 +7,7 @@ public class TryCatchExamples {
 			int[] a = {4};
 			System.out.println(a[1]);
 			
-		} catch(NullPointerException e) {
+		} catch(java.lang.NullPointerException e) {
 			
 			System.out.println("Your array is null!");
 			
